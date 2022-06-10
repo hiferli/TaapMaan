@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tapमान</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="import" href="CountryDropDown.html">
 </head>
 <body>
     <h1 id="header">Tapमान</h1>
@@ -15,6 +16,11 @@
     <h4 id="longitude">Long:&nbsp;</h4>
     <h2 id="temperature">Temperature:&nbsp;</h2>
     
+    <div data-includeHTML="CountryDropDown.html"></div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="merge-country-code.js"></script>
     <script src="index.js"></script>
+
 </body>
 </html> 
