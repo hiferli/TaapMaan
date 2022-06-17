@@ -10,13 +10,22 @@
 </head>
 <body>
     <h1 id="header">Tapमान</h1>
+    <div data-includeHTML="CountryDropDown.html"></div>
 
     <h2>Cordinates</h2>
-    <h4 id="latitude">Lat:&nbsp;</h4>
-    <h4 id="longitude">Long:&nbsp;</h4>
-    <h2 id="temperature">Temperature:&nbsp;</h2>
+    <h4>
+        Lat
+        <span id="latitude"></span>
+    </h4>
+    <h4>
+        Long:
+        <span id="longitude"></span>
+    </h4>
+    <h2>
+        Temperature:
+        <span id="temperature"></span>
+    </h2>
     
-    <div data-includeHTML="CountryDropDown.html"></div>
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="merge-country-code.js"></script>
